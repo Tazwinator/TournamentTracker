@@ -242,3 +242,4 @@ namespace TrackerUI
         private System.Windows.Forms.Button scoreButton;
     }
 }
+
