@@ -21,9 +21,9 @@ namespace TrackerUI
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Initialize the database connections
-            TrackerLibrary.GlobalConfig.InitializeConnections(TrackerLibrary.DatabaseType.Sql);
+            TrackerLibrary.GlobalConfig.InitializeConnections(TrackerLibrary.DatabaseType.TextFile); // TrackerLibrary.DatabaseType.Sql or .TextFile
 
-            Application.Run(new CreatePrizeForm());
+            Application.Run(new CreateTeamForm());
             // Application.Run(new TournamentDashboardForm());
         }
     }
